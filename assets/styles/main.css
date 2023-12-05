@@ -55,7 +55,40 @@ h1 {
     margin-top: 10px;
 }
 
+.footer{
+    margin: auto;
+}
 
+.startButton{
+    width: 30vh;
+    background-color: #000;
+    border: 4px;
+    border-style: solid;
+    border-color: #ffd700;
+    padding: 20px 10px;
+    text-align: center;
+    line-height: 1.7rem;
+}
+
+.startButton:hover{
+    background-color: #7fffd4;
+    color: #000;
+}
+
+.startButton:active{
+    color: #000;   
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.startButton[disabled]{
+    color: #808080;
+    border-color: #daa520;
+    background-color: rgb(67, 67, 67);
+    transform: none;
+    box-shadow: none;
+}
 
 
 
